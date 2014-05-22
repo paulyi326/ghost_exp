@@ -1,0 +1,39 @@
+<header class="sidebar-header">
+
+    <div class="first">
+        <div class="header-content">
+            <a class="blog-title" href="{{@blog.url}}" title="{{@blog.title}}">
+                {{@blog.title}}
+                <span class="byline">{{@blog.description}}</span>
+            </a>
+            <div class="social-icons">
+				<a href="http://twitter.com/northemes" title="Northemes on twitter">&#x6b;</a>
+				<a href="http://facebook.com" title="Facebook">&#x6a;</a>
+				<a href="http://stackoverflow.com" title="stackoverflow">&#x73;</a>
+				<a href="{{@blog.url}}/rss/" title="Northemes on twitter">&#x76;</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="second">
+        <a class="expander" title="Show menu">
+        	<div class="expand"><span class="icon"></span>Menu</div>
+        	<div class="collapse"><span class="icon collapse"></span>Collapse</div>
+        </a>
+		<!--div class="cover-wrapper">
+			<img class="cover" src="{{@blog.cover}}" alt="" title="" />
+		</div-->
+        <ul class="main-menu">
+                <li class="menu-item">
+                    <a href="{{@blog.url}}">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a href="http://themeforest.net/item/plattan-responsive-flat-and-clean-ghost-theme/6882608">Purchase</a>
+                </li>
+                <li class="menu-item">
+                    <a href="{{@blog.url}}/northemes-high-quality-design-from-sweden/">About Northemes</a>
+                </li>
+            </ul>
+    </div>
+
+</header>
