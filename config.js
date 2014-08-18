@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://paulyi.azurewebsites.net/',
+        url: 'http://paulyi.io/',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://paulyi.azurewebsites.net/',
+        url: 'http://paulyi.io/',
         mail: {},
         database: {
             client: 'sqlite3',
