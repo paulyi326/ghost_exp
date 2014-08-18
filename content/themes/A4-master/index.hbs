@@ -1,0 +1,20 @@
+{{!< default}}
+
+<section class="blog-list">
+	{{#foreach posts}}
+	<article class="blog-post {{post_class}}">
+		<header class="post-header">
+			<a href="{{url}}"><h2>{{{title}}}</h2></a>
+		</header>
+		<section class="post-content">
+		<p>{{excerpt}}&hellip;</p>
+		</section>
+		<footer class="post-footer">
+			Written on a {{date format="dddd"}} <time datetime="{{date format='YYYY-MM-DD'}}">{{date timeago="true"}}</time>
+		</footer>
+	</article>
+	{{/foreach}}
+</section>
+<footer class="blog-footer">
+	{{pagination}}
+</footer>
